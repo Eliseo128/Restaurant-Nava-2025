@@ -19,6 +19,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
     return Scaffold(
           appBar: AppBar(
         title: Text("Restaurant"),
+        backgroundColor: Colors.blueAccent,
       ),
       body: Padding(
         padding: EdgeInsets.all(5),
